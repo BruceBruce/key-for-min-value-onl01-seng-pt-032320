@@ -13,5 +13,6 @@ def key_for_min_value(name_hash)
       array.each do |value|
         min_num = value if value < min_num
       end
+      name_hash
 
 end
